@@ -4,6 +4,7 @@
 </a>
 
 
+![](https://img.shields.io/badge/-Golang-2496ED?style=flat-square&logo=Golang&logoColor=fff)
 ![](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=Docker&logoColor=fff)
 ![](https://img.shields.io/badge/-Linux-000000?style=flat-square&logo=Linux&logoColor=fff)
 ![](https://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=Windows)
