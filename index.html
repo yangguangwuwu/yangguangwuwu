@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>五五SEO</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <nav>
+    <a href="/#/">首页</a>
+    <a href="/#/php/">PHP</a>
+    <a href="/#/golang/">Golang</a>
+    <a href="/#/frontend/">前端</a>
+    <a href="/#/backend/">后端</a>
+    <a href="/#/linux/">Linux</a>
+    <a href="/#/over/">其他</a>
+  </nav>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '<span>五五SEO</span>',
+      auto2top: true,
+      loadSidebar: true,
+      autoHeader: true,
+      subMaxLevel: 2,
+      search: 'auto', // 默认值
+
+      search : [
+        '/',            // => /README.md
+      ],
+
+      // 完整配置参数
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: [], // or 'auto'
+        placeholder: {
+          '/': '搜索'
+        },
+        noData: {
+          '/': '找不到结果'
+        },
+        depth: 2,
+        hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+        namespace: 'website-1',
+        pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+      },
+      copyCode: {
+        buttonText: {
+          '/': '点击复制',
+        },
+        errorText: {
+          '/': '错误',
+        },
+        successText: {
+          '/': '复制',
+        }
+      },
+      pagination: {
+        previousText: '上一章节',
+        // or
+        nextText: {
+          '/': '下一章节'
+        },
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+      },
+      footer: {
+        copy: '<span>五五博客 &copy; 2023 - 至今</span>',
+        auth: 'by wuwuseo.com',
+        pre: '<span>ICP备案：&nbsp&nbsp&nbsp<a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank" rel="nofollow">豫ICP备17000153号</a><span><br><span>公安备案：<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010302000598" target="_blank" rel="nofollow">粤公网安备 44010302000598号</a><span>',
+        style: 'text-align: right;',
+        class: 'className',
+      },
+      baiduTjId: "4b1d8125729d3b7e2281507b78645643",
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-css.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markup.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-ini.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-protobuf.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-jsx.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-tsx.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-graphql.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-jq.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-jq.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-jq.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sass.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-scss.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-makefile.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-markmap.js@1.0.0/docsify-markmap.min.js"></script>
+  <script src="https://unpkg.com/docsify-baidu-tj@1.0.2/dist/docsify-baidu-tj.min.js"></script>
+</body>
+</html>
